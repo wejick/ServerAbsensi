@@ -1,0 +1,25 @@
+= Keperluan =
+1. Menangkap informasi dari Modul
+2. Mengirim informasi balasan ke Modul
+3. Mengambil informasi data (Jadwal, daftar mahasiswa, dll) ke server PPTI
+4. Mengirim informasi data (Presensi, dll) ke server PPTI
+5. Menampung database lokal untuk data (Jadwal, daftar mahasiswa, presensi, dll)
+6. Melakukan operasi RU (read, update) ke database lokal
+7. Menampilkan informasi data lewat antar muka GUI
+8. Mengubah informasi data lewat antar muka GUI
+9. Menampilkan status modul yang ditangani server
+10. Menampilkan kondisi server yang aktif (manajemen software)
+Design Implementasi Secara umum
+[1-2]
+1. Komunikasi menggunakan protokol TCP/IP.
+2. Komunikasi lewat data [teks polos][terenkripsi].
+[3-4]
+1. Menggunakan webservice PPTI dengan antarmuka RESTful API.
+2. Proses pengiriman data (sinkronisasi) dilakukan pada waktu yang ditentukan.
+[5-6]
+1. Menggunakan [sqlite][][] sebagai database sistem lokal.
+[7-9]
+1. Menggunakan Winform untuk antar muka GUI
+[10]
+1. Dibuatkan sebuah daemon untuk monitor keadaan server yang terdaftar
+2. Data ditampilkan pada sebuah halaman web
