@@ -1,0 +1,9 @@
+Diperlukan solusi berupa server dan modul RFID yang digunakan untuk keperluan absensi di Universitas Brawijaya. Dengan perangkat ini diharapkan akan didapatkan mekanisme absensi yang memudahkan baik mahasiswa, jurusan maupun universitas.
+=Keinginan pengguna=
+	Pada masing-masing pintu ruang kelas diberi modul RFID yang telah terhubung ke server yang ada dijurusan/fakultas yang bersangkutan. Mekanisme absensi yang direncanakan sebagai berikut :
+1. Sebelum dosen mengajar/masuk ke kelas, beliau men-Tap kartu dosen pada modul.
+2. Selanjutnya mahasiswa men-Tap kartu mahasiswa untuk mengisi presensi.
+3. Bila waktu sudah sesuai dengan peraturan yang ditetapkan untuk kesempatan mengisi presensi terakhir (15 menit), dosen men-Tap untuk kedua kalinya untuk menutup sesi presensi.
+	Sistem presensi ini harus diintegrasikan dengan sistem yang sudah ada. Hal-hal penting yang harus diintegrasikan antara lain :
+1. Jadwal mata kuliah
+2. Daftar mahasiswa dalam kelas
