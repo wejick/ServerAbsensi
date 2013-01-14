@@ -9,13 +9,16 @@
 8. Mengubah informasi data lewat antar muka GUI
 9. Menampilkan status modul yang ditangani server
 10. Menampilkan kondisi server yang aktif (manajemen software)
-Design Implementasi Secara umum
+
+= Design Implementasi Secara umum =
 [1-2]
 1. Komunikasi menggunakan protokol TCP/IP.
 2. Komunikasi lewat data [teks polos][terenkripsi].
+3. Sementara menggunakan UDP/IP karena modul belum siap menggunakan TCP/IP
 [3-4]
 1. Menggunakan webservice PPTI dengan antarmuka RESTful API.
 2. Proses pengiriman data (sinkronisasi) dilakukan pada waktu yang ditentukan.
+3. Data berbentuk JSON
 [5-6]
 1. Menggunakan [sqlite][][] sebagai database sistem lokal.
 [7-9]
